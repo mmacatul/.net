@@ -21,6 +21,7 @@ namespace MVC_test.Controllers
             return View();
         }
 
+        //Contact Page (Production)
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
