@@ -28,5 +28,11 @@ namespace MVC_test.Controllers
 
             return View();
         }
+
+        public ActionResult Location()
+        {
+            ViewBag.Message = "Your location page.";
+            return View();
+        }
     }
 }
